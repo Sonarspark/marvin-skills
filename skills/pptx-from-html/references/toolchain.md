@@ -1,18 +1,21 @@
-# Toolchain (already installed in the Paperclip image)
+# Toolchain
 
-Available in the container, no install needed:
-- `pptxgenjs` and `playwright-core` (global, `NODE_PATH=/usr/local/lib/node_modules`)
-- Chromium at `/usr/bin/chromium` (use `executablePath` and `args: ['--no-sandbox']`)
-- `soffice` (LibreOffice Impress/Writer) and `pdftoppm` (poppler)
-- `python-pptx`, `python3-pil`
+Expected in the sandbox, no install needed:
+- `pptxgenjs` and `playwright-core` (global npm packages)
+- Chromium (`command -v chromium`; launch with `executablePath` and `args: ['--no-sandbox']`)
+- `soffice` (LibreOffice) and `pdftoppm` (poppler)
+- `python-pptx`, Pillow
 - Fonts: Liberation, DejaVu, Carlito (= Calibri metrics), Caladea (= Cambria metrics), Noto. Verdana/Arial/Calibri are substituted in renders; the PPTX itself keeps the font name.
+
+Check first (takes a second): `command -v chromium soffice pdftoppm; npm ls -g --depth=0 | grep -E 'pptxgenjs|playwright'`.
+Node does not find global packages by default: run scripts with `NODE_PATH=$(npm root -g) node deck.js`.
 
 Do not install anything with apt/npm/pip during a run. If a tool is missing, say so in the task.
 
 ## Measure the HTML boxes (Chromium)
 ```js
 const {chromium}=require('playwright-core');
-const b=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});
+const b=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});
 const pg=await b.newPage({viewport:{width:1280,height:720}});
 await pg.goto('file:///path/deck.html');
 const boxes=await pg.$$eval('.slide [data-pptx]',els=>els.map(e=>{const r=e.getBoundingClientRect();const s=e.closest('.slide').getBoundingClientRect();
