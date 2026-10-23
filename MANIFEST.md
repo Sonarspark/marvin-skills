@@ -49,19 +49,13 @@
  |  xlsx | github | https://github.com/anthropics/skills | dbd4588f9e1033efb41dad4bef2f7947c8993d44 |
 | pptx-from-html | custom | /paperclip/tools/skills/pptx-from-html | |
 
-| built-in-browser | anthropic-example | Claude (cloud) installed skills, synced 2026-10-23 | |
 | change-management-plan | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
-| chrome-browser | anthropic-example | Claude (cloud) installed skills, synced 2026-10-23 | |
 | code-reviewer | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
-| computer-use | anthropic-example | Claude (cloud) installed skills, synced 2026-10-23 | |
 | deep-research | anthropic-example | Claude (cloud) installed skills, synced 2026-10-23 | |
-| docs | anthropic-example | Claude (cloud) installed skills, synced 2026-10-23 | |
 | find-skills | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
 | generate | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
 | impeccable | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
-| import-memory | anthropic-example | Claude (cloud) installed skills, synced 2026-10-23 | |
 | marvin-strategie-style | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
-| morning | anthropic-example | Claude (cloud) installed skills, synced 2026-10-23 | |
 | personal-growth-coach | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
 | review-docs | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
 | skill-creator | anthropic-example | Claude (cloud) installed skills, synced 2026-10-23 | |
