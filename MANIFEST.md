@@ -49,3 +49,15 @@
  |  xlsx | github | https://github.com/anthropics/skills | dbd4588f9e1033efb41dad4bef2f7947c8993d44 |
 | pptx-from-html | custom | /paperclip/tools/skills/pptx-from-html | |
 | ppt-master | github | https://github.com/hugohe3/ppt-master (skills/ppt-master, v6.7.3, MIT) | 523e5bd972f94c3cac8742fec0d54d43824a17bb |
+
+| change-management-plan | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
+| code-reviewer | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
+| deep-research | anthropic-example | Claude (cloud) installed skills, synced 2026-10-23 | |
+| find-skills | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
+| generate | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
+| impeccable | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
+| marvin-strategie-style | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
+| personal-growth-coach | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
+| review-docs | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
+| skill-creator | anthropic-example | Claude (cloud) installed skills, synced 2026-10-23 | |
+| workshop-ontwerper | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
