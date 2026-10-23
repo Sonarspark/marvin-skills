@@ -49,7 +49,6 @@
  |  xlsx | github | https://github.com/anthropics/skills | dbd4588f9e1033efb41dad4bef2f7947c8993d44 |
 | pptx-from-html | custom | /paperclip/tools/skills/pptx-from-html | |
 | ppt-master | github | https://github.com/hugohe3/ppt-master (skills/ppt-master, v6.7.3, MIT) | 523e5bd972f94c3cac8742fec0d54d43824a17bb |
-
 | change-management-plan | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
 | code-reviewer | plugin | Claude (cloud) installed skills, synced 2026-10-23 | |
 | deep-research | anthropic-example | Claude (cloud) installed skills, synced 2026-10-23 | |
