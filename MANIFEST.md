@@ -48,3 +48,4 @@
  |  write-swift | github | https://github.com/emilkowalski/skills | 2d228630ba1446365f614a108cb8252f1feda202 |
  |  xlsx | github | https://github.com/anthropics/skills | dbd4588f9e1033efb41dad4bef2f7947c8993d44 |
 | pptx-from-html | custom | /paperclip/tools/skills/pptx-from-html | |
+| ppt-master | github | https://github.com/hugohe3/ppt-master (skills/ppt-master, v6.7.3, MIT) | 523e5bd972f94c3cac8742fec0d54d43824a17bb |
